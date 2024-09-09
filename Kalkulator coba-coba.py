@@ -61,10 +61,12 @@ elif operasi == "8":
    num1 = float(input("Masukkan Diameter: "))
    result = (3.14 *  (num1**2))/4
    print("(", "3.14", "*", num1, "^2", ")","/ 4", "=", (round(result, 3)))
-  if Opelasi == "2":
+  elif Opelasi == "2":
    num1 = float(input("Masukkan Jari-Jari: "))
    result = (22 * (num1**2))/7
-   print("(", "22", "(", num1, "^2", ")", ")", "/ 7", (round(result, 3)))
+   print("(", "22", "(", num1, "^2", ")", ")", "/ 7", "=", (round(result, 3)))
+  else:
+   print("Salah Teken?")
 
 else:
   print("Salah Teken?")
